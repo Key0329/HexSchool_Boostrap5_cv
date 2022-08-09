@@ -298,8 +298,8 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
+$primary:       #aa00b6; //$blue !default;
+$secondary:     #71ddff; //$gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -337,7 +337,7 @@ $escaped-characters: (
 $enable-caret:                true !default;
 $enable-rounded:              true !default;
 $enable-shadows:              false !default;
-$enable-gradients:            false !default;
+$enable-gradients:            true; // false !default;
 $enable-transitions:          true !default;
 $enable-reduced-motion:       true !default;
 $enable-smooth-scroll:        true !default;
@@ -347,7 +347,7 @@ $enable-cssgrid:              false !default;
 $enable-button-pointers:      true !default;
 $enable-rfs:                  true !default;
 $enable-validation-icons:     true !default;
-$enable-negative-margins:     false !default;
+$enable-negative-margins:     true; // false !default;
 $enable-deprecation-messages: true !default;
 $enable-important-utilities:  true !default;
 
@@ -379,6 +379,8 @@ $spacers: (
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 3,
+  6: $spacer * 4.5,
+  7: $spacer * 6,
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -390,7 +392,8 @@ $spacers: (
 $position-values: (
   0: 0,
   50: 50%,
-  100: 100%
+  100: 100%,
+  auto: auto
 ) !default;
 // scss-docs-end position-map
 

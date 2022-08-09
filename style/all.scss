@@ -1,11 +1,13 @@
 @import "../node_modules/bootstrap/scss/functions";
 @import "./helpers/variables";
 @import "../node_modules/bootstrap/scss/maps";
+@import "./helpers/utilities";
+
 
 // @import "../node_modules/bootstrap/scss/bootstrap";
 
 @import "../node_modules/bootstrap/scss/mixins";
-@import "../node_modules/bootstrap/scss/utilities";
+// @import "../node_modules/bootstrap/scss/utilities";
 
 // Layout & components
 @import "../node_modules/bootstrap/scss/root";
@@ -46,3 +48,5 @@
 
 // // Utilities
 @import "../node_modules/bootstrap/scss/utilities/api";
+
+@import "./pages/index"

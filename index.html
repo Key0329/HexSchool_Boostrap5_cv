@@ -1,13 +1,197 @@
 <!DOCTYPE html>
 <html lang="zh-tw">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
+
 <body>
-    <a class="btn btn-primary m-5" href="#">123</a>
+
+    <header class="min-vh-100 position-relative">
+        <div class="deco-box position-absolute top-0 start-0"></div>
+        <div class="deco-box position-absolute bottom-0 end-0"></div>
+        <div class="position-absolute bg-cover bg-attachment-fixed"
+            style="top: 30px; bottom: 30px; right: 30px; left: 30px; background-image: url(https://images.unsplash.com/photo-1612282130134-49784d98ac61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1218&q=80);">
+        </div>
+        <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
+            <h1 class="display-1 fw-bold">陳 六角</h1>
+            <hr class="mb-1 mx-n5">
+            <h2>Hex Chen</h2>
+            <p>愛、勇氣與永不放棄的心</p>
+        </div>
+    </header>
+
+    <main>
+
+        <seciton>
+            <div class="container py-5">
+                <div class="row gy-3 justify-content-center flex-row-reverse">
+                    <div class="col-md-4">
+                        <img class="w-100 object-fit-cover" height="500"
+                            src="https://images.unsplash.com/photo-1612282131240-6e878907d0f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1121&q=80"
+                            alt="">
+                    </div>
+                    <div class="col-md-5 d-flex align-items-center">
+                        <div>
+                            <h2 class="display-4">
+                                我的立蛋故事
+                            </h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam eius accusamus commodi
+                                repellat perferendis, distinctio optio laborum quis illo? Culpa veritatis obcaecati
+                                eligendi quas provident excepturi quasi, fugit eos beatae error, corrupti incidunt
+                                recusandae quod ab fuga suscipit rerum ipsum est! Expedita cupiditate nam minima saepe
+                                voluptatum id, earum totam.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nihil quae libero
+                                praesentium adipisci est unde quasi? Libero praesentium obcaecati labore accusantium
+                                inventore laboriosam id doloremque nam! Quis, tenetur sint.</p>
+                            <a href="#" class="btn btn-outline-primary w-100 mt-4">
+                                看更多我的立蛋故事
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </seciton>
+
+
+
+        <seciton>
+            <div class="bg-light p-md-5 py-5 m-md-5">
+                <div class="container">
+                    <h2 class="display-4 text-center mb-4">
+                        我的實戰作品：
+                    </h2>
+                    <div class="row row-cols-1 row-cols-lg-3 g-4">
+                        <div class="col">
+                            <div class="card text-white border-5 h-100">
+                                <img src="https://images.unsplash.com/photo-1659958661414-59d7bd483853?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                                    class="card-img  h-100" alt="...">
+                                <div class="card-img-overlay top-auto bg-dark-gradient">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <a href="#" class="btn btn-outline-light stretched-link w-100">
+                                        看作品
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card bg-light text-white border-5 h-100">
+                                <img src="https://images.unsplash.com/photo-1504297050568-910d24c426d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                                    class="card-img h-100" alt="...">
+                                <div class="card-img-overlay top-auto bg-dark-gradient">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <a href="#" class="btn btn-outline-light stretched-link w-100">
+                                        看作品
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card bg-light text-white border-5 h-100">
+                                <img src="https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                                    class="card-img h-100" alt="...">
+                                <div class="card-img-overlay top-auto bg-dark-gradient">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <a href="#" class="btn btn-outline-light stretched-link w-100">
+                                        看作品
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </seciton>
+
+
+    </main>
+
+    <footer class="bg-primary p-5 text-white">
+        <div class="container">
+            <h2 class="display-4 text-center">做個朋友吧</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <p>遇見到世界上另一個地方的您相當開心</p>
+                    <h3 class="h4 mt-4">聯絡方式</h3>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-envelope me-2"></i>voluptati@email.com</li>
+                        <li><i class="bi bi-telephone me-2"></i>0987-654-321</li>
+                    </ul>
+                    <h3 class="h4 mt-5">社群關注</h3>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-instagram me-2"></i>insta</li>
+                        <li><i class="bi bi-facebook me-2"></i>facebook</li>
+                        <li><i class="bi bi-twitter me-2"></i>twitter</li>
+                    </ul>
+                    <p>© 2022 by 陳六角. created with Bootstrap 5.</p>
+                </div>
+                <form class="col-md-5 needs-validation" novalidate>
+                    <div class="row g-2">
+                        <div class="col-md-6">
+                            <label for="surname" class="form-label">姓氏 *</label>
+                            <input type="text" class="form-control" id="surname" value="Mark" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="name" class="form-label">名 *</label>
+                            <input type="text" class="form-control" id="name" value="Otto" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label for="email" class="form-label">Email *</label>
+                            <input type="email" class="form-control" id="email" placeholder="mark@example.com" required>
+                            <div class="valid-feedback">
+                                請輸入 Email
+                            </div>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label for="textarea" class="form-label">留些訊息給我吧 *</label>
+                            <textarea class="form-control" id="textarea" rows="3" required></textarea>
+                        </div>
+                        <div class="col-12 text-end">
+                            <buttion type="submit" class="btn btn-outline-light">送出表單</buttion>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+    </script>
 </body>
+
 </html>
