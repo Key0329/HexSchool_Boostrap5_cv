@@ -661,6 +661,20 @@ $utilities: map-merge(
         center: center center,
     )
     ),
+
+    // custom
+
+    "bg-attachment": (
+      property: background-attachment,
+      class: "bg-attachment",
+      values: fixed
+    ),
+    "object-fit": (
+      property: object-fit,
+      class: "object-fit",
+      values: cover
+    ),
   ),
   $utilities
 );
+
